@@ -8,7 +8,7 @@ Privileged Identity Management works with several different types of resources. 
 
 What we'll do in this demo is we'll assign elegibility for an application administrator role to one of our users. 
 
-Since we have the licensing and we've got PIM enabled, you'll see we can configure Pirvileged identity management. This is really what we are talking about right here.
+Since we have the licensing and we've got PIM enabled, you'll see we can configure Pirvileged Identity Management. This is really what we are talking about right here.
 
 <img width="1919" height="1035" alt="image" src="https://github.com/user-attachments/assets/f978858c-5430-4da8-88e5-4dd018e9420f" />
 
