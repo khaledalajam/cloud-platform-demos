@@ -1,6 +1,6 @@
-Hi, I'm Khaled, a Cybersecurity Analyst building real world hands-on expertise in identity and cloud security with a focus on Microsoft Azure. I'm preparing for the Azure Security Engineer Associate (AZ-500) certification as I transition into a Cloud Security Engineer role. I thought I'd document some of it along the way.
+I'm preparing for the Azure Administrator AZ-104 certification as I transition into a Cloud Security Engineer role. I thought I'd document some of the core identity and cloud security principles with a focus on Microsoft Azure. 
 
-To set the stage, the demos in this portfolio were built in a real Azure subscription named **Prima-Macula Prod Sub 1**, representing the organization **Prima-Macula** within this enviroment. This is not a sandbox; it's a production-like Azure setup configured with industry-standard services and security controls.
+To set the stage, the demos in this portfolio were built in a real Azure subscription named **Prima-Macula Prod Sub 1**, representing this fictional organization **Prima-Macula** within this environment. This is not a sandbox; it's a production-like Azure setup configured with industry-standard services and security controls.
 
 Each demo begins with an overview diagram, and then walks through the implementation of a core security concept from setup to validation.
 
