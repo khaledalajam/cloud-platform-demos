@@ -1,7 +1,7 @@
 <img width="2104" height="1332" alt="Entra ID Conditional Access" src="https://github.com/user-attachments/assets/f4470d63-8e9b-4de4-95d7-3723dd14fd7c" />
 
 
-We're going to create a simple conditional access policy for the pretend application registered within our Entra ID.
+We're going to create a simple Conditional Access Policy for the pretend application registered within our Entra ID.
 
 We'll start by showing how we can use locations. Locations is one of the key components of Conditional Access that makes you consider where are your solutions being accessed from. There's a couple of ways we can configure locations.
 
