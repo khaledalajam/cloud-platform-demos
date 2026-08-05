@@ -13,7 +13,7 @@ Network Security Groups have several default security rules that you can't edit 
 
 <img width="1920" height="1024" alt="image" src="https://github.com/user-attachments/assets/c50577c7-5dd3-4863-b42a-c9147c31df87" />
 
-So by default I've got that allow VNet connectivity inbound and outbound, I allow load balancery connectivity, and I also allow interent outbound, but otherwise you'll see I block everything else by default. So if you want something to be allowed you have to create an allow rule. And that's exactly what we'll do.
+So by default I've got allow VNet connectivity inbound and outbound, I allow load balancer connectivity, and I also allow interent outbound, but otherwise you'll see I block everything else by default. So if you want something to be allowed you have to create an allow rule. And that's exactly what we'll do.
 
 I'll create a rule that can allow us to remotely connect to that virtual machine.
 
