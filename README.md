@@ -1,4 +1,4 @@
-I'm building out a platform engineering skill-set on top of my IT infrastructure and security background. This portfolio documents hands-on work across CI/CD and containerization and cloud identity/security.
+I'm building out a platform engineering skillset on top of my IT infrastructure and security background. This portfolio documents hands-on work across CI/CD and containerization and cloud identity/security.
 
 The container demo demonstrates the full build-to-deploy lifecycle: Dockerfile → CI/CD → registry → local run.
 
