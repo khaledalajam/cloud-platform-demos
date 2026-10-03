@@ -5,7 +5,7 @@ The container demo demonstrates the full build-to-deploy lifecycle: Dockerfile â
 The Azure demos were built in a real Azure subscription (Prima-Macula Prod Sub 1) representing a fictional organization.
 
 
->**NOTE:** This is not a sandbox; it's a production-like setup with industry-standard services and security controls. These are demonstrations, not step-by-step tutorials. Screenshots show key configurations and outcomes; the context and intent are explained in the text.
+>**NOTE:** This is not a sandbox; it's a production-like setup with industry-standard services and security controls. These are demonstrations, not step-by-step tutorials; screenshots show key configurations and outcomes; the context and intent are explained in the text.
 
 [Container Build & Deployment](<Container Build & Deployment.md>)
 
