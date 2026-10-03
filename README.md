@@ -1,8 +1,8 @@
-I'm building out a platform engineering skill-set on top of my IT infrastructure and security background. This portfolio documents hands-on work across container deployment automation and cloud identity/security (Azure).
+I'm building out a platform engineering skill-set on top of my IT infrastructure and security background. This portfolio documents hands-on work across container deployment automation and cloud identity/security.
 
 The container demo demonstrates the full build-to-deploy lifecycle: Dockerfile → CI/CD → registry → local run.
 
-The Azure demos were built in a real subscription (Prima-Macula Prod Sub 1) representing a fictional organization.
+The Azure demos were built in a real Azure subscription (Prima-Macula Prod Sub 1) representing a fictional organization.
 
 
 >**NOTE:** This is not a sandbox; it's a production-like setup with industry-standard services and security controls. These are demonstrations, not step-by-step tutorials. Screenshots show key configurations and outcomes; the context and intent are explained in the text.
