@@ -36,4 +36,4 @@ For this demo we're going to create and configure a network security group, or N
 
 >This portfolio demonstrates cloud security and platform engineering principles through hands-on implementations. These skills are directly applicable across cloud platforms, including AWS and Google Cloud.
 
-I'd welcome your feedback; feel free to reach out to me and let me know your thoughts about these demos and how they apply to real-world scenarios.
+I'd welcome your feedback; feel free to reach out and let me know your thoughts on how these apply to real-world scenarios.
