@@ -1,33 +1,17 @@
-name: Build & Push
+FROM python:3.12-alpine
+WORKDIR /app
 
-on:
-  push:
-    branches: [main]
+RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+COPY --chown=appuser:appgroup . .
+USER appuser
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    permissions:
-      packages: write
-      contents: read
-    env:
-      SHA: ${{ github.sha }}
-    steps:
-      - uses: actions/checkout@v4
+LABEL maintainer="khaledalajam9@gmail.com" \
+      org.opencontainers.image.source="https://github.com/khaledalajam/cloud-platform-demos" \
+      org.opencontainers.image.description="Sample platform service"
 
-      - name: Build & Tag
-        run: |
-          TAG="${SHA:0:7}"
-          docker build -t ghcr.io/${{ github.repository_owner }}/platform-container:$TAG ./container
-          docker tag ghcr.io/${{ github.repository_owner }}/platform-container:$TAG \
-                    ghcr.io/${{ github.repository_owner }}/platform-container:latest
-          docker images | grep platform-container
+EXPOSE 3000
 
-      - name: Login to GHCR
-        run: echo "${{ secrets.GHCR_PAT }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
+  CMD wget -qO- http://localhost:3000/health || exit 1
 
-      - name: Push
-        run: |
-          TAG="${SHA:0:7}"
-          docker push ghcr.io/${{ github.repository_owner }}/platform-container:$TAG
-          docker push ghcr.io/${{ github.repository_owner }}/platform-container:latest   
+CMD ["python", "server.py"]   
