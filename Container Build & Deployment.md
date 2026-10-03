@@ -1,8 +1,10 @@
+The Dockerfile runs the service as a non-root user with a built-in health check, and a GitHub Actions workflow builds and pushes the image to GHCR on every commit to main.
+
 <img width="873" height="210" alt="image" src="https://github.com/user-attachments/assets/19ddd914-6642-422e-ae8d-62a4e2b8455d" />
 
 <img width="1119" height="358" alt="image" src="https://github.com/user-attachments/assets/f7f40ad6-fde2-4546-ab8a-1758053c4703" />
 
-I'm going to download some code and use the docker file to create a container image.
+First, I'm going to download some code and use the docker file to create a container image.
 
 <img width="1112" height="505" alt="image" src="https://github.com/user-attachments/assets/07a5a821-4be6-47d2-9f3a-cd3c60b07bfa" />
 
